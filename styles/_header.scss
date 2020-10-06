@@ -1,0 +1,67 @@
+
+header {
+    width: 100vw;
+    // position: sticky;
+    margin-top: 25px;
+    div,
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h1 {
+        margin-bottom: 0;
+        margin-top: 45px;
+        font-family: $serif;
+        font-size: 3em;
+    }
+    img {
+        height: 100px;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        li {
+            margin: 0 25px;
+        }
+    }
+}
+.home,
+.recipes,
+.tools,
+.ingredients {
+    position: relative;
+}
+//image size from Original 8%
+.home:hover::before,
+.home.currentLink::before  {
+    content: url("./cocktailImages/svg/002-bloody mary-sm.svg");
+    position: absolute;
+    left: 41px;
+    bottom: -10px;
+    // background-image: "";
+}
+.recipes:hover::before,
+.recipes.currentLink::before {
+    content: url("./cocktailImages/svg/047-caipirinha-sm.svg");
+    position: absolute;
+    left: 58px;
+    bottom: -10px;
+    // background-image: "";
+}
+.ingredients:hover::before,
+.ingredients.currentLink::before {
+    content: url("./cocktailImages/svg/022-martini-sm.svg");
+    position: absolute;
+    left: 79px;
+    bottom: -10px;
+    // background-image: "";
+}
+.tools:hover::before,
+.tools.currentLink::before {
+    content: url("./cocktailImages/svg/050-bramble-sm.svg");
+    position: absolute;
+    left: 41px;
+    bottom: -10px;
+    // background-image: "";
+}

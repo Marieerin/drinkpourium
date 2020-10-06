@@ -1,0 +1,41 @@
+html {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $sansSerif;
+    color: $navy;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+nav {
+
+    a:hover {
+        color: $teal;
+        text-shadow: 1px 1px 0 $beige;
+    }
+}
+.leftFloat {
+    float: left;
+}
+.rightFloat {
+    float: right;
+}
+.largeImage{
+    height: 234px;
+}
+.mediumImage {
+    height: 150px;
+}
+main {
+    margin: 20px auto!important;
+    border: 3px solid $orange;
+    height: 76vh;
+    overflow-y: scroll;
+}

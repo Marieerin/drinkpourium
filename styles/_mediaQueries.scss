@@ -1,0 +1,40 @@
+@media screen and (max-width: 1007px){
+    header {
+        .wrapper{
+            padding: 10px;
+            flex-direction: column;
+        }
+    }
+    nav {
+        ul {
+            padding-left: 0;
+        }
+        li {
+            margin: 0 25px;
+        }
+        .home {
+            margin-left: 0;
+        }
+        .tools {
+            margin-right: 0;
+        }
+    }
+    main{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    header {
+        margin-top: 0px;
+
+        h1{
+            margin-top: 42px;
+        }
+        img {
+            height: 73px;
+        }
+    } 
+    main {
+        margin: 0!important;
+    }
+}
