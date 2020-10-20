@@ -275,22 +275,32 @@ nav a:hover {
 }
 
 .largeImage {
+  margin-top: 25px;
   height: 234px;
 }
 
 .mediumImage {
-  height: 150px;
+  height: 113px;
+}
+
+.smallerImage {
+  height: 90px;
+}
+
+.dottedBackground {
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 main {
   margin: 20px auto !important;
-  border: 3px solid #F67053;
   height: 76vh;
   overflow-y: scroll;
 }
 
 header {
   width: 100vw;
+  background-color: white;
   margin-top: 25px;
 }
 
@@ -368,9 +378,263 @@ header ul li {
   bottom: -10px;
 }
 
+.recipePage {
+  background-color: #F4DFAF;
+}
+
+.recipePage .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.recipeCard {
+  width: 33%;
+  margin: 99px 0 20px;
+  background-color: white;
+  border: 2px solid #F67053;
+  border-top: 100px solid #F67053;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recipeCard-ImageSection {
+  position: absolute;
+  top: -178px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recipeCard-ImageContainer {
+  border-radius: 50%;
+  border: 4px solid #F67053;
+  background-color: white;
+  padding: 10px;
+  width: 178px;
+  height: 178px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recipeCard-TextContainer {
+  width: 100%;
+  height: 100%;
+  padding: 84px 20px 20px 20px;
+  padding: 0 20px 20px 20px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ingredientsPage {
+  background-color: #F4DFAF;
+}
+
+.ingredientsPage .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ingredientCard {
+  width: 33%;
+  margin: 99px 0 20px;
+  background-color: white;
+  border: 2px solid #E8605D;
+  border-top: 100px solid #E8605D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ingredientCard-ImageSection {
+  position: absolute;
+  top: -178px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ingredientCard-ImageContainer {
+  border-radius: 50%;
+  border: 4px solid #E8605D;
+  background-color: white;
+  padding: 10px;
+  width: 178px;
+  height: 178px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ingredientCard-TextContainer {
+  width: 100%;
+  height: 100%;
+  padding: 84px 20px 20px 20px;
+  padding: 0 20px 20px 20px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.toolsPage {
+  background-color: #F4DFAF;
+}
+
+.toolsPage .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.toolCard {
+  width: 33%;
+  margin: 99px 0 20px;
+  background-color: white;
+  border: 2px solid #232344;
+  border-top: 100px solid #232344;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toolCard-ImageSection {
+  position: absolute;
+  top: -178px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toolCard-ImageContainer {
+  border-radius: 50%;
+  border: 4px solid #232344;
+  background-color: white;
+  padding: 10px;
+  width: 178px;
+  height: 178px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toolCard-TextContainer {
+  width: 100%;
+  height: 100%;
+  padding: 84px 20px 20px 20px;
+  padding: 0 20px 20px 20px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 @media screen and (max-width: 1007px) {
   header .wrapper {
-    padding: 10px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -405,5 +669,10 @@ header ul li {
   }
   main {
     margin: 0 !important;
+  }
+  .recipeCard,
+  .toolCard,
+  .ingredientCard {
+    width: 100%;
   }
 }

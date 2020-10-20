@@ -28,14 +28,23 @@ nav {
     float: right;
 }
 .largeImage{
+    margin-top: 25px;
     height: 234px;
 }
 .mediumImage {
-    height: 150px;
+    height: 113px;
+}
+.smallerImage {
+    height: 90px;
+}
+.dottedBackground {
+        background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
 }
 main {
     margin: 20px auto!important;
-    border: 3px solid $orange;
+    // border: 3px solid $orange;
     height: 76vh;
     overflow-y: scroll;
 }
