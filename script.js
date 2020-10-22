@@ -12,7 +12,7 @@ let contentLoader = (page) => {
         Object.keys(pageData).forEach(function(key){
             // console.log(key, pageData[key]);
             console.log(pageData[key].picture);
-            $('main').append(`
+            $('.mainZone').append(`
                 <div class="recipeCard">
                     <div class="recipeCard-ImageSection" aria-hidden="true">
                     <div class="recipeCard-ImageContainer" aria-hidden="true">
@@ -27,7 +27,7 @@ let contentLoader = (page) => {
             return
         } else if (page === 'recipes') {
             
-            $('main').append('<h1>bla</h1>')
+            $('.mainZone').append('<h1>bla</h1>')
         } else if (page === 'tools' || page === 'ingredients') {
 
         } 
