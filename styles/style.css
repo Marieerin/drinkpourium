@@ -298,6 +298,10 @@ main {
   overflow-y: scroll;
 }
 
+.indexText {
+  width: 73%;
+}
+
 header {
   width: 100vw;
   background-color: white;
