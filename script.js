@@ -8,20 +8,23 @@ let contentLoader = (page) => {
     dbRef.on('value', (data) => {
         const allData = data.val();
         pageData = allData[page];
-        console.log(pageData);
-        console.log(allData);
+
         Object.keys(pageData).forEach(function(key){
-            // console.log(key, pageData[key]);
             const name = pageData[key].name;
             const picture = pageData[key].picture;
             const description = pageData[key].description;
             const source = pageData[key].source;
-            const ingredients = pageData[key].ingredients
-            const steps = pageData[key].steps
 
             if (page === 'index') {
                 return
             } else if (page === 'recipes') {
+                const ingredients = pageData[key].ingredients;
+                const ingredientArray = ingredients.map((ingredient) => `<li>${ingredient}</li>`);
+                const ingredientsJoined = ingredientArray.join(` `);
+                const instructions = pageData[key].instructions;
+                const instructionArray = instructions.map((instruction) => `<li>${instruction}</li>`);
+                const instructionsJoined = instructionArray.join(` `);
+
                 $('.mainZone').append(`
                 <div class="recipeCard">
                     <div class="recipeCard-ImageSection" aria-hidden="true">
@@ -34,20 +37,11 @@ let contentLoader = (page) => {
                         <p>${description}</p>
                         <h3>Ingredients</h3>
                         <ul>
-                            <li>Ice cubes</li>
-                            <li>2 1/2 ounces gin</li>
-                            <li>1/2 ounce dry vermouth</li>
-                            <li>Optional: ​1 dash orange or aromatic bitters</li>
-                            <li>Garnish: lemon twist or 1 or 3 olives</li>
+                            ${ingredientsJoined}
                         </ul>
                         <h3>Steps</h3>
                         <ol>
-                            <li>In a mixing glass filled with ice cubes, combine the gin and vermouth, pouring more or less vermouth to your taste.
-                            
-                            Stir for 30 seconds.</li>
-                            <li>Strain into a chilled cocktail glass.</li>
-                            <li>Add a dash of bitters, if desired.
-                            Garnish with olives or a lemon twist.</li>
+                            ${instructionsJoined}
                         </ol>
                         <span><a href="${source}">Link to source</a></span>
                     </div>
