@@ -2,31 +2,32 @@
 header {
     width: 100vw;
     background-color: white;
-    // position: sticky;
-    margin-top: 25px;
+    margin-top: 5px;
     div,
-    .logo {
+    .logo,
+    ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     h1 {
         margin-bottom: 0;
-        margin-top: 45px;
+        margin-top: 8px;
         font-family: $serif;
-        font-size: 3em;
+        font-size: 28px;
     }
     img {
-        height: 100px;
+        height: 50px;
     }
     ul {
-        display: flex;
         list-style: none;
         li {
             margin: 0 25px;
         }
     }
 }
+
+// nav bar icons
 .home,
 .recipes,
 .tools,
@@ -40,15 +41,14 @@ header {
     position: absolute;
     left: 41px;
     bottom: -10px;
-    // background-image: "";
 }
+
 .recipes:hover::before,
 .recipes.currentLink::before {
     content: url("./cocktailImages/svg/047-caipirinha-sm.svg");
     position: absolute;
     left: 58px;
     bottom: -10px;
-    // background-image: "";
 }
 .ingredients:hover::before,
 .ingredients.currentLink::before {
@@ -56,7 +56,6 @@ header {
     position: absolute;
     left: 79px;
     bottom: -10px;
-    // background-image: "";
 }
 .tools:hover::before,
 .tools.currentLink::before {
@@ -64,5 +63,4 @@ header {
     position: absolute;
     left: 41px;
     bottom: -10px;
-    // background-image: "";
 }

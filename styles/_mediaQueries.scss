@@ -1,7 +1,11 @@
+@media screen and (max-width: 1040px){
+    .wrapper {
+        margin: 0 29px;
+    }
+}
 @media screen and (max-width: 1007px){
     header {
         .wrapper{
-            // padding: 10px;
             flex-direction: column;
         }
     }
@@ -28,7 +32,7 @@
     //     width: 50%;
     // }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 670px){
     header {
         margin-top: 0px;
 

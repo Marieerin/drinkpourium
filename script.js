@@ -1,4 +1,6 @@
 const dbRef = firebase.database().ref();
+const pageId = document.activeElement.id
+
 // for each object in firebase
 // check what page it is
 // print each card item out with proper classes
@@ -6,7 +8,7 @@ let contentLoader = (page) => {
     dbRef.on('value', (data) => {
         const allData = data.val();
         pageData = allData[page];
-        // console.log(pageData);
+        console.log(pageData);
         console.log(allData);
         Object.keys(pageData).forEach(function(key){
             // console.log(key, pageData[key]);
@@ -83,6 +85,5 @@ let contentLoader = (page) => {
                 `)
             }
         });
-
-    })
+    });
 };

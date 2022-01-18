@@ -1,0 +1,92 @@
+{
+  "ingredients" : {
+    "bitters" : {
+      "description" : "An essential coctail ingredient, just a few dropf of bitters will lift your beverage to the next level!",
+      "name" : "bitters",
+      "picture" : "gin-tonic.png",
+      "source" : "https://www.cocktailemporium.com/collections/bitters"
+    },
+    "cherries" : {
+      "description" : "I don't think this one needs a description. Get plain maraschino cherries from the grocery store, but if you want to be fancy follow the link.",
+      "name" : "Maraschino cherry",
+      "picture" : "cherries.svg",
+      "source" : "https://www.cocktailemporium.com/collections/cocktail-cherries"
+    },
+    "syrups" : {
+      "description" : "A thick sweet liquid made by dissolving sugar in boiling water. Save a few pennies by making it yourself or purchase a variety of plain or flavoured.",
+      "name" : "Syrup",
+      "picture" : "syrup.png",
+      "source" : "https://www.cocktailemporium.com/collections/syrups"
+    }
+  },
+  "recipes" : {
+    "Chef John's Hot Buttered Rum": {
+      "name": "Chef John's Hot Buttered Rum",
+      "source": "https://www.allrecipes.com/recipe/282572/chef-johns-hot-buttered-rum/",
+      "description": "While eggnog gets a lot more press, hot buttered rum is the ultimate festive holiday drink. So rich, so delicious, so satisfying, and super easy to make.",
+      "ingredients": ["8 tablespoons unsalted butter, at room temperature", "½ cup firmly packed dark brown sugar","¼ teaspoon pure vanilla extract", "½ teaspoon ground cinnamon", "⅛ teaspoon ground ginger", "¼ teaspoon ground nutmeg", "⅛ teaspoon ground cardamom", "1 pinch ground cloves", "1 pinch salt", "6 tablespoons heavy cream", "1 ⅛ cups dark rum", "4 ½ cups boiling water, or as needed", "⅛ teaspoon ground nutmeg, or to taste"],
+      "instructions" : ["Place butter, brown sugar, vanilla extract, cinnamon, ginger, nutmeg, cardamom, clove, and salt for batter into a mixing bowl and cream together with a spatula until well combined.", "To make the drink, place about 2 tablespoons of the batter into a festive, heat-proof mug. Add 1 tablespoon cream, 3 tablespoons rum, and fill halfway up with some of the boiling water. Stir with a spoon until the batter dissolves and top off more water. Garnish with a pinch of nutmeg. Repeat until all 6 drinks are prepared and serve immediately."],
+      "picture" : "034-irish coffee.svg"
+    },
+    "Cosmopolitan Cocktail": {
+      "name": "Cosmopolitan Cocktail",
+      "source": "https://www.acouplecooks.com/cosmopolitan-cocktail/",
+      "description": "What’s in a cosmopolitan cocktail? It’s easier to make than you think! This vibrant pink drink is perfect for celebrations of all kinds.",
+      "ingredients": [ "1 ounce (2 tablespoons) vodka or citron vodka*", "1 ounce (2 tablespoons) 100% cranberry juice (do not use sweetened!)", "½ ounce (1 tablespoon) Cointreau", "½ ounce (1 tablespoon) lemon juice", "1 lime wedge", "1 teaspoon simple syrup or maple syrup**", "For the garnish: lime wheel (optional)"],
+      "instructions" : ["Place the vodka, cranberry juice, Cointreau, lemon juice, and syrup in a cocktail shaker with ice. Shake 15 seconds until cold. Strain the liquid into a martini glass.", "Squeeze with the lime wedge and serve, garnished with a lime wheel if desired."],
+      "picture" : "046-cosmopolitan.svg"
+    },
+    "maiTai" : {
+      "description" : "'Who better to get Mai Tai tips from than San Francisco barman and rum aficionado Martin Cate? Not only did he just release a new book, Smuggler’s Cove: Exotic Cocktails, Rum, and the Cult of Tiki, but his seven-year-old bar of the same name won Tales of the Cocktail's 2016 Spirited Award for 'Best American Cocktail Bar.'",
+      "ingredients" : "['3/4 ounce fresh lime juice','1/2 ounce orange curaçao (Pierre Ferrand preferred)','1/4 ounce orgeat','1/4 ounce rich demerara simple syrup (with a 2:1 ratio of water to sugar) — use real, full-flavored sugar in this drink','2 ounces aged pot still or blended rum']",
+      "instructions" : "['Combine all ingredients with 12 ounces of crushed ice and some cubes in a shaker. Shake until chilled and pour — ice and all — into a double old fashioned glass.','The Mai Tai is simply garnished with half of a spent lime shell and a fresh mint sprig, designed to look like a small island and palm tree on the surface of your drink: fragrant, attractive, and simple.']",
+      "name" : "Mai Tai",
+      "picture" : "005-mai tai.svg",
+      "source" : "https://www.eater.com/21348867/best-mai-tai-recipe-history"
+    },
+    "martini" : {
+      "description" : "'One of the great classic bourbon cocktails, the Old Fashioned was invented in Louisville, KY. Try bourbon, rye, or a blended whiskey in this cocktail. You can also sub one sugar cube for the simple syrup.'",
+      "ingredients" : "['Ice cubes','2 1/2 ounces gin','1/2 ounce dry vermouth','Optional: ​1 dash orange or aromatic bitters','Garnish: lemon twist or 1 or 3 olives']",
+      "instructions" : "['In a mixing glass filled with ice cubes, combine the gin and vermouth, pouring more or less vermouth to your taste. Stir for 30 seconds.','Strain into a chilled cocktail glass.','Add a dash of bitters, if desired. Garnish with olives or a lemon twist.']",
+      "name" : "Martini",
+      "picture" : "022-martini.svg",
+      "source" : "https://www.thespruceeats.com/classic-gin-martini-recipe-759739"
+    },
+    "oldFashioned" : {
+      "description" : "One of the great classic bourbon cocktails, the Old Fashioned was invented in Louisville, KY. Try bourbon, rye, or a blended whiskey in this cocktail. You can also sub one sugar cube for the simple syrup.",
+      "ingredients" : "['2 tsp simple syrup','1 tsp water','2 dashes bitters','1 cup ice cubes','1 (1 1/2 ounce jigger bourbon whiskey','1 slice orange', '1 maraschino cherry']",
+      "instructions" : "['Pour the simple syrup, water, and bitters into a whiskey glass. Stir to combine, then place the ice cubes in the glass. Pour bourbon over the ice and garnish with the orange slice and maraschino cherry.'",
+      "name" : "Old Fashioned",
+      "picture" : "044-old fashioned.svg",
+      "source" : "https://www.allrecipes.com/recipe/162397/classic-old-fashioned/"
+    },
+    "paloma" : {
+      "description" : "The Paloma is the most popular tequila-based cocktail in Mexico and if you struggle to drink tequila cocktails because they bring back too many dreadful memories of drunken student days and debauchery, this might just be the alternative.",
+      "ingredients" : "['1 1/2 ounces of reposado tequila (or any good quality blanco)','juice of half a ruby grape fruit','1/2 ounce of agave syrup or sugar syrup','75 mL club soda','Optional: a squirt of fresh lime juice'",
+      "instructions" : "['Mix the grapefruit juice, tequila and sugar syrup until well mixed.','Pour over a tall glass filled with ice and top up with soda water. You could add a squirt of lime juice which is nice and I did, and you could also rim the glass with salt.']",
+      "name" : "Paloma",
+      "picture" : "028-paloma.svg",
+      "source" : "https://drizzleanddip.com/2012/03/14/the-perfect-paloma-cocktail/"
+    }
+  },
+  "tools" : {
+    "jigger" : {
+      "description" : "A double-ended vessel, generally of stainless steel or other metal, one end of which typically measures 1 1/2 fluid ounces, the other typically 1 fluid ounce. ",
+      "name" : "jigger",
+      "picture" : "jigger.png",
+      "source" : "https://www.cocktailemporium.com/collections/measures"
+    },
+    "mixingGlass" : {
+      "description" : "If your coctail contains only, spirits, then you must stir to chill. No matter what James Bond said, a Martini should be stirred!",
+      "name" : "Mixing Glasses",
+      "picture" : "mix.png",
+      "source" : "https://www.cocktailemporium.com/collections/mixing-glasses"
+    },
+    "shaker" : {
+      "description" : "Most coctails need to be chilled before serving. If the cocktail includes fruit juice, eggwhite, or dairy, then chill by shaking",
+      "name" : "Shaker",
+      "picture" : "041-shaker.svg",
+      "source" : "https://www.cocktailemporium.com/collections/shakers"
+    }
+  }
+}

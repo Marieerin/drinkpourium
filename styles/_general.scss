@@ -15,17 +15,10 @@ a {
     color: inherit;
 }
 nav {
-
     a:hover {
         color: $teal;
         text-shadow: 1px 1px 0 $beige;
     }
-}
-.leftFloat {
-    float: left;
-}
-.rightFloat {
-    float: right;
 }
 .largeImage{
     margin-top: 25px;
@@ -40,14 +33,22 @@ nav {
 .dottedBackground {
         background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-
 }
 main {
-    margin: 20px auto!important;
+    margin: 10px auto!important;
     // border: 3px solid $orange;
     height: 76vh;
     overflow-y: scroll;
 }
 .indexText {
     width: 73%;
+    background-color: beige;
+    padding: 21px 89px 21px 48px;
+    border-radius: 0 11px;
+}
+#index {
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
 }
