@@ -236,76 +236,6 @@ html {
   overflow: hidden;
 }
 
-html {
-  background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: "Rubik", sans-serif;
-  color: #232344;
-}
-
-.wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-nav a:hover {
-  color: #38C2A5;
-  text-shadow: 1px 1px 0 #F4DFAF;
-}
-
-.largeImage {
-  margin-top: 25px;
-  height: 234px;
-}
-
-.mediumImage {
-  height: 113px;
-}
-
-.smallerImage {
-  height: 90px;
-}
-
-.dottedBackground {
-  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
-
-main {
-  margin: 10px auto !important;
-  height: 76vh;
-  overflow-y: scroll;
-}
-
-.indexText {
-  width: 73%;
-  background-color: beige;
-  padding: 21px 89px 21px 48px;
-  border-radius: 0 11px;
-}
-
-#index .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 header {
   width: 100vw;
   background-color: white;
@@ -489,8 +419,8 @@ header ul li {
 }
 
 .ingredientCard {
-  border: 2px solid #E8605D;
-  border-top: 100px solid #E8605D;
+  border: 2px solid #f9aeeb;
+  border-top: 100px solid #f9aeeb;
 }
 
 .recipeCard-ImageContainer {
@@ -502,11 +432,11 @@ header ul li {
 }
 
 .ingredientCard-ImageContainer {
-  border: 4px solid #E8605D;
+  border: 4px solid #f9aeeb;
 }
 
 .recipePage {
-  background-color: #F4DFAF;
+  background-color: #baf49f;
 }
 
 .recipePage .wrapper {
@@ -590,6 +520,176 @@ header ul li {
           flex-direction: column;
 }
 
+.ingredientsPage {
+  background-color: #a4f7ff;
+}
+
+.ingredientsPage .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ingredientCard {
+  width: 33%;
+  margin: 99px 0 20px;
+  background-color: white;
+  border: 2px solid #f9aeeb;
+  border-top: 100px solid #f9aeeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ingredientCard-ImageSection {
+  position: absolute;
+  top: -178px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ingredientCard-ImageContainer {
+  border-radius: 50%;
+  border: 4px solid #f9aeeb;
+  background-color: white;
+  padding: 10px;
+  width: 178px;
+  height: 178px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ingredientCard-TextContainer {
+  width: 100%;
+  height: 100%;
+  padding: 84px 20px 20px 20px;
+  padding: 0 20px 20px 20px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.toolsPage {
+  background-color: #f86df6;
+}
+
+.toolsPage .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.toolCard {
+  width: 33%;
+  margin: 99px 0 20px;
+  background-color: white;
+  border: 2px solid #232344;
+  border-top: 100px solid #232344;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toolCard-ImageSection {
+  position: absolute;
+  top: -178px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toolCard-ImageContainer {
+  border-radius: 50%;
+  border: 4px solid #232344;
+  background-color: white;
+  padding: 10px;
+  width: 178px;
+  height: 178px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toolCard-TextContainer {
+  width: 100%;
+  height: 100%;
+  padding: 84px 20px 20px 20px;
+  padding: 0 20px 20px 20px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 @media screen and (max-width: 1040px) {
   .wrapper {
     margin: 0 29px;
@@ -638,4 +738,98 @@ header ul li {
   .ingredientCard {
     width: 100%;
   }
+}
+
+html {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Rubik", sans-serif;
+  color: #232344;
+}
+
+body {
+  height: 100vh;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  color: #38C2A5;
+  text-shadow: 1px 1px 0 #F4DFAF;
+}
+
+.largeImage {
+  margin-top: 25px;
+  height: 234px;
+}
+
+.mediumImage {
+  height: 113px;
+}
+
+.smallerImage {
+  height: 90px;
+}
+
+.dottedBackground {
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+main {
+  margin: 10px auto !important;
+  height: 87vh;
+  overflow-y: scroll;
+}
+
+.indexText {
+  margin: 10px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 21px 89px 21px 48px;
+  border-radius: 0 11px;
+}
+
+#index {
+  width: 100vw;
+  background-color: #ff8f8f;
+  color: white;
+}
+
+#index .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100%;
+  color: #f86df6;
 }
