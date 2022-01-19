@@ -10,8 +10,8 @@
     width: 33%;
     margin: 99px 0 20px;
     background-color: white;
-    border: 2px solid $navy;
-    border-top: 100px solid $navy;
+    border: 2px solid $lime;
+    border-top: 100px solid $lime;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -27,7 +27,7 @@
 }
 .toolCard-ImageContainer {
     border-radius: 50%;
-    border: 4px solid $navy;
+    border: 4px solid $lime;
     background-color: white;
     padding: 10px;
     width: 178px;
@@ -39,11 +39,10 @@
 
 .toolCard-TextContainer {
     width: 100%;
-    height: 100%;
     padding: 84px 20px 20px 20px;
     padding: 0 20px 20px 20px;
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     flex-direction: column;
 }
