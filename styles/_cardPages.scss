@@ -8,6 +8,15 @@
         justify-content: space-between;
     }
 }
+.recipePage {
+    background-color: $lime;
+}
+.toolsPage {
+    background-color: $flamingo;
+}
+.ingredientsPage {
+    background-color: $sky;
+}
 .recipeCard,
 .toolCard,
 .ingredientCard {
@@ -46,35 +55,34 @@
 .toolCard-TextContainer,
 .ingredientCard-TextContainer  {
     width: 100%;
-    height: 100%;
     padding: 84px 20px 20px 20px;
     padding: 0 20px 20px 20px;
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     flex-direction: column;
 }
 
 .recipeCard {
     border: 2px solid $orange;
-    border-top: 100px solid #F67053;
+    border-top: 100px solid $orange;
 }
 .toolCard {
-    border: 2px solid $navy;
-    border-top: 100px solid $navy;
+    border: 2px solid $lime;
+    border-top: 100px solid $lime;
 }
 .ingredientCard {
-    border: 2px solid $pink;
-    border-top: 100px solid $pink;
+    border: 2px solid $flamingo;
+    border-top: 100px solid $flamingo;
 }
 
 .recipeCard-ImageContainer {
     border: 4px solid $orange;
 }
 .toolCard-ImageContainer {
-    border: 4px solid $navy;
+    border: 4px solid $lime;
 }
 .ingredientCard-ImageContainer {
-    border: 4px solid $pink;
+    border: 4px solid $flamingo;
 }
 
